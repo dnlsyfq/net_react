@@ -66,3 +66,46 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+---
+
+
+* Windows
+    *   yarn
+
+---
+
+1. npx create-react-app <name>
+2. cd <name>
+3. npm build / npm run build / yarn build
+4. netlify deploy
+5. ./build
+6. netlify deploy --prod
+
+---
+
+* make changes
+
+1. modify SRC/App.js
+2. npm build 
+3. netlify deploy 
+5. ./build
+6. netlify deploy --prod
+
+---
+
+* CI
+
+1. git init 
+2. git git remote add origin https://...git
+3. git add
+4. git commit
+5. git push -f origin master 
+
+* netlify -> Build & Deploy
+
+* Build Command 
+> npm run build
+
+* Publish Directory
+> ./build
